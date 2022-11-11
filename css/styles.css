@@ -242,6 +242,7 @@ a:link {
   color: #ffffff;
   cursor: pointer;
   margin-bottom: 9px;
+  width
 }
 
 .footer-data:hover,
@@ -274,8 +275,8 @@ a.footer-contact {
   margin: 0 auto;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 70px;
-  margin-right: 68px;
+  margin-left: 50px;
+  margin-right: 40px;
 }
 
 .footer-second-section-title {
@@ -340,8 +341,31 @@ a.footer-contact {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+/* <div class="footer-form">
+
+<fieldset class="fieldset-footer">
+  <label class="fieldset-footer-label" for="newsletter">
+    <p class="fieldset-footer-label">Zapisz się do newslettera</p>
+  <input class="fieldset-footer-input" type="email" id="newsletter" placeholder="Email"/>
+
+  </label>
+</fieldset>
+<button class="fieldset-footer-button" type="button"><p class="fieldset-footer-button-push">Zapisz się</p><svg class="fieldset-footer-icon"><use href="./images/icons.svg#icon-icon-send"> </use></svg></span></button> 
+</div>
 .fieldset-footer {
 border: none;
+} */
+
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.fieldset-footer {
+  border: none;
 }
 
 .fieldset-footer-label {
@@ -395,11 +419,12 @@ display: flex;
 justify-content: center;
 margin: auto;
 cursor: pointer;
-margin-top: 30px;
+margin-top: 46px;
 border: none;
 display: flex;
 align-items: center;
 position: relative;
+
 }
 
 .fieldset-footer-button-push {
@@ -419,7 +444,8 @@ left: 40px;
 }
 
 .fieldset-footer-button:hover,
-.fieldset-footer-button:focus {
+.fieldset-footer-button:focus
+ {
   background: #7cbef4;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
