@@ -340,27 +340,21 @@ a.footer-contact {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 /* <div class="footer-form">
 
 <fieldset class="fieldset-footer">
   <label class="fieldset-footer-label" for="newsletter">
-    <p class="fieldset-footer-label">Zapisz się do newslettera</p>
+    <span class="fieldset-footer-label">Zapisz się do newslettera</span>
   <input class="fieldset-footer-input" type="email" id="newsletter" placeholder="Email"/>
 
   </label>
 </fieldset>
-<button class="fieldset-footer-button" type="button"><p class="fieldset-footer-button-push">Zapisz się</p><svg class="fieldset-footer-icon"><use href="./images/icons.svg#icon-icon-send"> </use></svg></span></button> 
-</div>
-.fieldset-footer {
-border: none;
-} */
-
+<button class="fieldset-footer-button" type="button"><span class="fieldset-footer-button-push">Zapisz się</span><svg class="fieldset-footer-icon"><use href="./images/icons.svg#icon-icon-send"> </use></svg></button> 
+</div> */
 
 .footer-form {
   display: flex;
   flex-direction: row;
-  gap: 12px;
 }
 
 .fieldset-footer {
@@ -376,8 +370,10 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
+display: block;
 margin-bottom: 20px;
 margin-top: 10px;
+
 }
 
 .fieldset-footer-input {
@@ -388,6 +384,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color: transparent;
 outline: none;
+margin-right: 12px;
 }
 
 .fieldset-footer-input:focus {
@@ -1096,14 +1093,14 @@ left: -15px;
   display: block;
 }
 
-.fieldset:has(:focus) {
+.fieldset:has(.modal-box-name-size:focus) {
   border-color: var(--item-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.fieldset:has(:focus) .modal-name-icon {
+.fieldset:has(.modal-box-name-size:focus) .modal-name-icon {
   fill: var(--item-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1123,7 +1120,7 @@ left: -15px;
   margin-bottom: 20px;
 }
 
-.fieldset-comment:has(:focus) {
+.fieldset-comment:has(.modal-box-comment-size:focus) {
   border-color: var(--item-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1178,7 +1175,7 @@ color: rgba(117, 117, 117, 0.5);
   position: absolute;
   right: -0.1px;
   bottom: 3.5px;
-border-radius: 2px;
+  border-radius: 2px;
 } 
 
 .modal-submit-checkbox .modal-submit-icon {
