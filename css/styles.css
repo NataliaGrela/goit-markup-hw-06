@@ -963,12 +963,6 @@ margin-bottom: 30px;
   margin-bottom: 28px;
 }
 
-/* .modal-form .modal-label {
-position: absolute;
-top: -25px;
-left: 0px;
-} */
-
 .modal-label {
   font-family: 'Roboto';
 font-style: normal;
@@ -1000,6 +994,14 @@ left: -15px;
   display: block;
 }
 
+.fieldset:has(:focus) {
+  border-color: var(--item-color);
+}
+
+.fieldset:has(:focus) .modal-name-icon {
+  fill: var(--item-color);
+}
+
 .fieldset-comment {
   display: flex;
   position: relative;
@@ -1012,6 +1014,10 @@ left: -15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 20px;
+}
+
+.fieldset-comment:has(:focus) {
+  border-color: var(--item-color);
 }
 
 .modal-box-comment-size {
@@ -1050,23 +1056,28 @@ color: rgba(117, 117, 117, 0.5);
   border: none;
 }
 
-/* .checkbox {
-width: 16px;
-height: 15px;
-border: 2px solid #212121;
-display: flex;
-flex-direction: row;
-margin-right: 8px;
-} */
+.modal-submit-checkbox {
+  position: relative;
+  cursor: pointer;
+  margin-right: 8px;
+}
 
 .modal-submit-icon {
   width: 11px;
   height: 18px;
   fill: var(--brand-color);
+  position: absolute;
+  right: 1px;
 } 
 
+.modal-submit-checkbox .modal-submit-icon {
+  fill: white;
+  background-color: transparent;
+}
+
 input:checked + .modal-submit-checkbox .modal-submit-icon {
-  fill: black;
+  fill: white;
+  background-color: var(--item-color);
 }
 
 .modal-submit-text {
