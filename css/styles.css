@@ -1065,7 +1065,7 @@ margin-right: 8px;
   fill: var(--brand-color);
 } 
 
-input:checked .modal-submit-checkbox .modal-submit-icon {
+input:checked + .modal-submit-checkbox .modal-submit-icon {
   fill: black;
 }
 
