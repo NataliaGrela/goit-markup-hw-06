@@ -242,7 +242,6 @@ a:link {
   color: #ffffff;
   cursor: pointer;
   margin-bottom: 9px;
-  width
 }
 
 .footer-data:hover,
@@ -444,8 +443,7 @@ left: 40px;
 }
 
 .fieldset-footer-button:hover,
-.fieldset-footer-button:focus
- {
+.fieldset-footer-button:focus {
   background: #7cbef4;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1174,11 +1172,13 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-submit-icon {
-  width: 11px;
-  height: 18px;
+  width: 13px;
+  height: 13px;
   fill: var(--brand-color);
   position: absolute;
-  right: 1px;
+  right: -0.1px;
+  bottom: 3.5px;
+border-radius: 2px;
 } 
 
 .modal-submit-checkbox .modal-submit-icon {
