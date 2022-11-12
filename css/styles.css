@@ -340,18 +340,6 @@ a.footer-contact {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* <div class="footer-form">
-
-<fieldset class="fieldset-footer">
-  <label class="fieldset-footer-label" for="newsletter">
-    <span class="fieldset-footer-label">Zapisz się do newslettera</span>
-  <input class="fieldset-footer-input" type="email" id="newsletter" placeholder="Email"/>
-
-  </label>
-</fieldset>
-<button class="fieldset-footer-button" type="button"><span class="fieldset-footer-button-push">Zapisz się</span><svg class="fieldset-footer-icon"><use href="./images/icons.svg#icon-icon-send"> </use></svg></button> 
-</div> */
-
 .footer-form {
   display: flex;
   flex-direction: row;
@@ -1233,105 +1221,5 @@ color: white;
 }
 
 
-
-/* .modal-box-name-size {
-  width: 420px;
-  height: 40px;
-  margin-bottom: 28px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-border: none;
-} */
-
-/* .modal-phone {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-color: var(--link-color);
-position: absolute; 
-} */
-
-/* .modal-phone-icon {
-  width: 13px;
-  height: 13px;
-  fill: var(--brand-color);
-  position: absolute; 
-  left: 15px;
-  top: 12px;
-}
-
-.modal-box-phone-size {
-  width: 448px;
-  height: 40px;
-  margin-bottom: 28px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-} */
-
-/* .modal-email {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-color: var(--link-color);
-} */
-
-/* .modal-email-icon {
-  width: 15px;
-  height: 12px;
-  fill: var(--brand-color);
-  position: absolute; 
-  left: 15px;
-  top: 12px;
-}
-
-.modal-box-email-size {
-  width: 448px;
-  height: 40px;
-  margin-bottom: 28px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-} */
-/* 
-.modal-comment {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-color: var(--link-color);
-} */
-
-/* .modal-box-comment-size {
-  width: 448px;
-  height: 120px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-resize: none;
-}
-
-::placeholder {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-padding-left: 16px;
-padding-top: 12px;
-color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-permission-icon {
-  width: 11px;
-  height: 18px;
-  fill: var(--brand-color);
-} */
 
  
