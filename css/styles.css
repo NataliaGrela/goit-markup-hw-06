@@ -372,6 +372,7 @@ a.footer-contact {
   background-color: transparent;
   outline: none;
   margin-right: 12px;
+  padding-left: 16px;
 }
 
 .fieldset-footer-input:focus {
